@@ -20,7 +20,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>baiscServlet</servlet-name>
-    <url-pattern>/basicServlet</url-pattern>
+    <url-pattern>/baiscServlet</url-pattern>
     <url-pattern>/bs</url-pattern>
   </servlet-mapping>
   <servlet>

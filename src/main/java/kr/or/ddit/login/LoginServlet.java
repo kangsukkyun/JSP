@@ -85,6 +85,10 @@ public class LoginServlet extends HttpServlet{
 		//if(userVo != null && userVo.getPass().equals(password)){
 		
 		String encryptPass = KISA_SHA256.encrypt(password);
+		
+		//암호화된 비밀번호를 출력  
+		System.out.println(encryptPass);
+		
 		if(userVo != null && userVo.authPass(encryptPass)){
 			//redirect
 			//resp.sendRedirect("main.jsp?userId="+userId + "&password="+password);
@@ -114,7 +118,7 @@ public class LoginServlet extends HttpServlet{
 		
 	}
 	
-	@Override
+/*	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		req.setCharacterEncoding("utf-8");
@@ -132,12 +136,13 @@ public class LoginServlet extends HttpServlet{
 		//userId : brwon / sally
 		String[] userIds = req.getParameterValues("userId");
 		for(String userId : userIds)
-			pw.println("		userId : " + userId + "<br>");
+		pw.println("		userId : " + userId + "<br>");
 		pw.println("		password : " + req.getParameter("password") + "<br>");
 		pw.println("		</body>");
 		pw.println("	</html>");
 
 	}
+*/
 }
 
 

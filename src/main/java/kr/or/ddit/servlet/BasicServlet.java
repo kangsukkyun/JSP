@@ -51,7 +51,6 @@ public class BasicServlet extends HttpServlet{
 		//HttpServletResponse : 응답에 대한 정보
 		resp.setContentType("text/html; charset=utf-8");
 		///--
-		
 		PrintWriter pw = resp.getWriter();
 		
 		//date format을 이용하여

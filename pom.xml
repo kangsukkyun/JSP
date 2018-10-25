@@ -61,7 +61,7 @@
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>12.1.0.2</version>
-			<scope>provided</scope>
+			<scope>runtime</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2 -->
