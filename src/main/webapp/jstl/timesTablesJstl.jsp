@@ -2,6 +2,10 @@
     pageEncoding="UTF-8"%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%
+	String number = request.getParameter("number");
+	
+%>
     
 <!DOCTYPE html>
 <html>
@@ -17,7 +21,7 @@
 	<table>
 		<c:forEach begin="1" end="9" var="j">
 			<tr>
-				<c:forEach begin="2" end="9" var="i">
+				<c:forEach begin="2" end="${param.number}" var="i">
 					<td>${i } * ${j }=${i*j } </td>
 				</c:forEach>
 			</tr>		
