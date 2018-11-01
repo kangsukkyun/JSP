@@ -1,7 +1,5 @@
 package kr.or.ddit.encrypt.seed;
 
-import java.beans.Encoder;
-import java.io.UnsupportedEncodingException;
 
 /**
 @file KISA_SEED_CBC.java

@@ -1,6 +1,5 @@
 package kr.or.ddit.prod.service;
 
-import java.util.List;
 import java.util.Map;
 
 import kr.or.ddit.prod.model.ProdVo;
@@ -10,7 +9,7 @@ public interface ProdServiceInf {
 
 	/**
 	* Method : selectProdList
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param pageVo
 	* @return
@@ -20,7 +19,7 @@ public interface ProdServiceInf {
 
 	/**
 	* Method : selectProdDetailTest
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param prod_id
 	* @return

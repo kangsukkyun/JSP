@@ -26,7 +26,7 @@
 				//		==> DriverManager.getConnection()을 이용하고
 				//		==> 접속이 성공하면 Connection객체가 생성된다.
 				String url = "jdbc:oracle:thin:@localhost:1521:xe";
-				String user = "sem";  // 등록된 사용자 ID
+				String user = "pc22";  // 등록된 사용자 ID
 				String pass = "java"; // 등록된 패스워드
 				
 				long startTime = System.currentTimeMillis();

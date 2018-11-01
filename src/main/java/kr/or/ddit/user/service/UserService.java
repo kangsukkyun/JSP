@@ -30,7 +30,7 @@ public class UserService implements UserServiceInf {
 
 	/**
 	* Method : selectUserPageList
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param pageVo
 	* @return
@@ -57,7 +57,7 @@ public class UserService implements UserServiceInf {
 
 	/**
 	* Method : insertUser
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param userVo
 	* @return
@@ -71,7 +71,7 @@ public class UserService implements UserServiceInf {
 	
 	/**
 	* Method : deleteUser
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param userId
 	* @return
@@ -85,7 +85,7 @@ public class UserService implements UserServiceInf {
 
 	/**
 	* Method : updateUser
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param userVo
 	* @return

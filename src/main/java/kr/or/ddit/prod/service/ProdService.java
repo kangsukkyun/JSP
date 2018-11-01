@@ -13,7 +13,7 @@ public class ProdService implements ProdServiceInf {
 
 	/**
 	* Method : selectProdList
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param pageVo
 	* @return
@@ -35,7 +35,7 @@ public class ProdService implements ProdServiceInf {
 
 	/**
 	* Method : selectProdDetailTest
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param prod_id
 	* @return

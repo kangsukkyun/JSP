@@ -39,6 +39,18 @@
     <servlet-name>dditLogin</servlet-name>
     <url-pattern>/dditLogin</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>velocityServlet</servlet-name>
+    <servlet-class>org.apache.velocity.tools.view.VelocityViewServlet</servlet-class>
+    <init-param>
+    	<param-name>org.apche.velocity.properties</param-name>
+    	<param-value>/WEB-INF/velocity.properties</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>velocityServlet</servlet-name>
+    <url-pattern>*.vm</url-pattern>
+  </servlet-mapping>
   <error-page>
     <error-code>500</error-code>
     <location>/WEB-INF/error/500.html</location>
@@ -57,4 +69,10 @@
     <res-type>javax.sql.DataSource</res-type>
     <res-auth>Container</res-auth>
   </resource-ref>
+  <listener>
+    <listener-class>kr.or.ddit.listener.SessionListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>kr.or.ddit.listener.SessionAttrListener</listener-class>
+  </listener>
 </web-app>

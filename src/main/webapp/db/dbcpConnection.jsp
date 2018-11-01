@@ -12,7 +12,7 @@
 	<%
 		//db connection pooling
 		BasicDataSource bd = new BasicDataSource();
-		bd.setUsername("sem");
+		bd.setUsername("pc22");
 		bd.setPassword("java");
 		bd.setUrl("jdbc:oracle:thin:@localhost:1521:xe");
 		bd.setDriverClassName("oracle.jdbc.driver.OracleDriver");

@@ -16,7 +16,7 @@ public interface UserDaoInf {
 	
 	/**
 	* Method : getUserCnt
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @return
 	* Method 설명 : 사용자 전체 건수 조회
@@ -25,7 +25,7 @@ public interface UserDaoInf {
 	
 	/**
 	* Method : insertUser
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param userVo
 	* @return
@@ -35,7 +35,7 @@ public interface UserDaoInf {
 	
 	/**
 	* Method : deleteUser
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param userId
 	* @return
@@ -45,7 +45,7 @@ public interface UserDaoInf {
 
 	/**
 	* Method : updateUser
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param userVo
 	* Method 설명 : 사용자 정보 수정

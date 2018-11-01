@@ -40,7 +40,8 @@
 									<img src="/profile/noimage.png">
 								</c:when>
 								<c:otherwise>
-									<img src="${userVo.profile }">
+									<%-- <img src="${userVo.profile }"> --%>
+									<img src="/fileDownload?userId=${userVo.userId }">
 								</c:otherwise>
 							</c:choose>
 							

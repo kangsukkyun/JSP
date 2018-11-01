@@ -4,7 +4,7 @@ public class StringUtil {
 	
 	/**
 	* Method : getFileNameFromHeader
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param contentDisposition
 	* @return
@@ -23,7 +23,7 @@ public class StringUtil {
 
 	/**
 	* Method : getCookie
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param cookieString
 	* @param string

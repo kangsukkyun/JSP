@@ -3,7 +3,10 @@ package kr.or.ddit.user.model;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class UserVo {
+import javax.servlet.http.HttpSessionBindingEvent;
+import javax.servlet.http.HttpSessionBindingListener;
+
+public class UserVo implements HttpSessionBindingListener {
 	private String userId;
 	private String name;
 	private String alias;
@@ -134,7 +137,7 @@ public class UserVo {
 
 	/**
 	* Method : authPass
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param encryptPass
 	* @return
@@ -142,6 +145,17 @@ public class UserVo {
 	*/
 	public boolean authPass(String encryptPass) {
 		return getPass().equals(encryptPass);
+	}
+
+
+	@Override
+	public void valueBound(HttpSessionBindingEvent event) {
+		System.out.println("userVo: "+event.getName());
+	}
+
+	@Override
+	public void valueUnbound(HttpSessionBindingEvent event) {
+		
 	}
 
 }

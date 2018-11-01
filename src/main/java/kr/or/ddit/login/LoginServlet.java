@@ -1,8 +1,6 @@
 package kr.or.ddit.login;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,8 +8,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.xml.ws.Response;
 
 import kr.or.ddit.encrypt.sha.KISA_SHA256;
 import kr.or.ddit.user.model.UserVo;
@@ -28,7 +24,10 @@ public class LoginServlet extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse resp)
 			throws ServletException, IOException {
-			
+		
+		String newParameter = request.getParameter("newParameter");
+		System.out.println("newParameter : " + newParameter);
+		
 		//1.사용자 아이디, 비밀번호를 reqeuest객체에서 받아온다
 		//2.db에서 조회해온 아이디, 비밀번호를 체크를 한다
 		//3-1.일치할 경우 main.jsp로 이동

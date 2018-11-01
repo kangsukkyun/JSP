@@ -13,7 +13,7 @@ public class ProdDao implements ProdDaoInf {
 
 	/**
 	* Method : selectProdList
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param pageVo
 	* @return
@@ -32,7 +32,7 @@ public class ProdDao implements ProdDaoInf {
 
 	/**
 	* Method : selectProdDetailTest
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param prod_id
 	* @return
@@ -51,7 +51,7 @@ public class ProdDao implements ProdDaoInf {
 
 	/**
 	* Method : selectProdCnt
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @return
 	* Method 설명 : 제품 전체건수조회

@@ -35,7 +35,7 @@ public class ProdServlet extends HttpServlet {
 
 	/**
 	* Method : prodDetail
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param request
 	* @param response
@@ -58,7 +58,7 @@ public class ProdServlet extends HttpServlet {
 
 	/**
 	* Method : prodList
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param request
 	* @param response

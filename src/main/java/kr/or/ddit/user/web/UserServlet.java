@@ -61,7 +61,7 @@ public class UserServlet extends HttpServlet {
 
 	/**
 	* Method : userPageList
-	* 작성자 : sem
+	* 작성자 : pc22
 	* 변경이력 :
 	* @param request
 	* @param response

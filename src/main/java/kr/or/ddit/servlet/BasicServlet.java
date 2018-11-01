@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
 * BasicServlet.java
 *
-* @author sem
+* @author pc22
 * @version 1.0
 * @see
 *
@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 *
 * 수정자 수정내용
 * ------ ------------------------
-* sem 최초 생성
+* pc22 최초 생성
 *
 * 현재 시간을 출력하는 html 생성하는 서블릿
 * </pre>

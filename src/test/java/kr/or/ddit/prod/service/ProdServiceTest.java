@@ -1,11 +1,11 @@
 package kr.or.ddit.prod.service;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.List;
 import java.util.Map;
 
-import kr.or.ddit.prod.dao.ProdDaoInf;
 import kr.or.ddit.prod.model.ProdVo;
 import kr.or.ddit.util.model.PageVo;
 
